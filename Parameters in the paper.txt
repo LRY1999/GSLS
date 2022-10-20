@@ -1,0 +1,90 @@
+Cora：
+ epochs: 500
+ dim: 128
+ lr: 0.005
+ lr2: 0.001
+ w_loss1: 10
+ w_loss2: 1
+ cfg: [512, 128]
+ wd1: 0.00005
+ wd2: 0.005
+ dropout: 0.3
+ lamda: 0.9999
+ k: 25
+
+
+CiteSeer
+ epochs: 200
+ dim: 128
+ lr: 0.005
+ lr2: 0.001
+ w_loss1: 5
+ w_loss2: 1
+ cfg: [128]
+ wd1: 0.0001
+ wd2: 0.05
+ dropout: 0.1
+ lamda: 0.999
+ k: 35
+
+
+PubMed：
+ epochs: 500
+ dim: 512
+ lr: 0.01
+ lr2: 0.001
+ w_loss1: 20
+ w_loss2: 1
+ cfg: [512, 512]
+ wd1: 0.0001
+ wd2: 0.01
+ dropout: 0.4
+ lamda: 0.9999
+ k: 25
+
+Photo：
+ epochs: 1000
+ dim: 128
+ lr: 0.01
+ lr2: 0.001
+ w_loss1: 100
+ w_loss2: 1
+ cfg: [512, 128]
+ wd1: 0.0001
+ wd2: 0.0
+ dropout: 0.1
+ lamda: 0.9999
+ k: 30
+
+
+Computers：
+ epochs: 500
+ dim: 128
+ lr: 0.01
+ lr2: 0.001
+ w_loss1: 100
+ w_loss2: 1
+ cfg: [512, 128]
+ wd1: 0.0001
+ wd2: 0.0
+ dropout: 0.1
+ lamda: 0.9999
+ k: 25
+
+
+ogbn-arxiv：
+ epochs: 500
+ dim: 512
+ lr: 0.01
+ lr2: 0.001
+ w_loss1: 10
+ w_loss2: 1
+ cfg: [512, 512]
+ wd1: 0.00005
+ wd2: 0.0
+ dropout: 0.2
+ lamda: 0.9999
+ k: 25
+
+
+###Other parameters are defaulted
